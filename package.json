@@ -1,0 +1,27 @@
+{
+  "name": "js-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp && node lib/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "keywords": [],
+  "author": "Anthony <anthony@abmail.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  },
+  "repository": {
+    "url": "https://github.com/acolas/js-stack-from-scratch.git",
+    "type": "git"
+  }
+}
